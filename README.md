@@ -1,4 +1,4 @@
-**Description**
+#Description
 
 This Password Validator is a command-line application that guides users through creating a secure password. It enforces various password requirements to ensure passwords are robust against common attacks while being usable.
 Features
@@ -17,7 +17,7 @@ Prohibits passwords that start with "pass" (case-insensitive)
 Checks for character uniqueness (no repeated characters)
 Interactive feedback with specific error messages for each failed check
 
-**How to Use**
+#How to Use
 
 Run the script: `python password_validator.py`
 Enter your first and last name when prompted
@@ -26,7 +26,7 @@ The program will check your password against all criteria
 If your password fails any checks, you'll see specific error messages
 Continue entering passwords until all criteria are met
 
-**Security Features**
+#Security Features
 
 This validator enhances password security by:
 
@@ -36,7 +36,7 @@ Requiring varied character types
 Enforcing minimum and maximum length rules
 Preventing character repetition that could weaken passwords
 
-**Example**
+#Example
 ```
 Enter your first and last name: John Doe
 Enter your desired password: password
@@ -55,7 +55,7 @@ Enter your desired password: Secure$123
 Password is valid and OK to use.
 ```
 
-**Requirements**
+#Requirements
 
 Python 3.x
 No external dependencies
